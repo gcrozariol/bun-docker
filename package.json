@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "bun src/http/server.ts",
-    "dev": "bun --hot app.ts",
+    "dev": "bun --hot src/http/server.ts",
     "generate": "drizzle-kit generate:pg",
     "migrate": "bun src/db/migrate.ts",
     "seed": "bun src/db/seed.ts",
@@ -14,7 +14,7 @@
     "@elysiajs/cors": "^0.7.2",
     "@elysiajs/jwt": "^0.7.0",
     "@paralleldrive/cuid2": "2.2.2",
-    "@react-email/components": "^0.0.11",
+    "@react-email/components": "^0w.0.11",
     "dayjs": "^1.11.10",
     "drizzle-orm": "^0.29.1",
     "drizzle-typebox": "^0.1.1",
